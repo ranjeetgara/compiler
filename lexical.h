@@ -9,7 +9,7 @@ extern void input(bool left, bool middle, bool right);
 
 extern char buffer1[65], buffer2[65], buffer3[65], *forward;
 
-extern int file_dcs;
+extern int file_dcs, lines;
 
 struct node
 {

@@ -76,7 +76,7 @@ char getnext()
             input(true, false, false);
         }     
         else if (forward == &buffer3[64]){
-            forward = buffer3;
+            forward = buffer1;
             input(false, true, false);
         }
     }
